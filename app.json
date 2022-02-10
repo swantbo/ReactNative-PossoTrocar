@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "possotrocar",
-    "slug": "possotrocar",
+    "name": "PossoTrocar",
+    "slug": "PossoTrocar",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#16163F"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,9 +17,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apnconsultoria.possotrocar"
     },
     "android": {
+      "package": "com.apnconsultoria.possotrocar",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
